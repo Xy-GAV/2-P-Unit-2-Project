@@ -1,0 +1,16 @@
+
+[draggable=true] {
+  cursor: move;
+}
+
+.resizable {
+  overflow: scroll;
+  resize: both;
+  max-width: 800px;
+  max-height: 600px;
+  border: 1px solid black;
+  min-width: 50px;
+  min-height: 50px;
+  background-color: skyblue;
+  margin-left: 100px;
+}
