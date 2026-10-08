@@ -12,5 +12,17 @@
   min-width: 50px;
   min-height: 50px;
   background-color: skyblue;
-  margin-left: 100px;
+}
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXGWcUAAohJPMo6a-Nay2mKu1b_0Tnb9KldP972OJGXAOQjMwjbP9XicM&s=10);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.folder {
+  background-image: url(folderpng.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-color: transparent;
+  border: 0;
 }
