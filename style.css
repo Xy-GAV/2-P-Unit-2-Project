@@ -22,7 +22,28 @@ body {
   background-image: url(folderpng.png);
   background-size: contain;
   background-repeat: no-repeat;
+  padding: 32px;
+  background-color: transparent;
+  border: 0;
+}
+.RightDTRow{
+  margin-left: 1820px;
+  position:absolute;
+}
+table, th, td {
+  border-collapse: collapse;
   padding: 10px;
+  width: 68px;
+  table-layout: auto
+}
+table{
+  position: absolute;
+  left:1750px
+}
+.icon{
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 32px;
   background-color: transparent;
   border: 0;
 }
