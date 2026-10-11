@@ -2,23 +2,27 @@
 Requirements
 [  ] Two Element Selectors
 [  ] Two ID Selectors
-[  ] Two Class Selectors
+[yes] Two Class Selectors
 [  ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include Border Radius CSS Property 
-[ no ] Feature 2 - Include a Static Background Image
+[yes] Feature 1 - Include Border Radius CSS Property 
+[yes] Feature 2 - Include a Static Background Image
 [ no ] Feature 3 - Include An Animated Background Color Change
 [ no ] Feature 4 - Embed YouTube Video 
-[ no ] Feature 5 - Include Border CSS Property 
+[yes] Feature 5 - Include Border CSS Property 
 -->
     
 <!DOCTYPE HTML>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Unit 2 Project</title>
+        <title>MacOS Sonoma</title>
         <link href="style.css" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -28,14 +32,14 @@ Select ONE Additional Feature to Add
             <p>hello?</p>
         </div>
 
-        <table>
+        <table class="desktop">
             <tr>
-                <td><button class="folder"></button></td>
-                <td><button class="folder"></button></td>
+                <td><button class="folder"><br><br><br>test</button></td>
+                <td><button class="folder"><br><br><br>test</button></td>
             </tr>
             
             <tr>
-                <td><button class="folder"></button></td>
+                <td><button class="folder"><br><br><br>test</button></td>
                 <td><button class="folder"></button></td>
             </tr>
             <tr>
@@ -46,7 +50,32 @@ Select ONE Additional Feature to Add
         </table>
         
         <table>
-            <tr><button class="icon" style="background-image: url(https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_Notes_icon.svg/960px-Apple_Notes_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail)"></button></tr>
+            
         </table>
+
+        <table class="taskbar">
+            <tr>
+                <td>
+                    <button class="tbicon" style="background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fexcelbuddy.com%2Fwp-content%2Fuploads%2F2023%2F02%2Fexcel-icon-microsoft-5963669.png&f=1&nofb=1&ipt=d664f5c63adc81ff9a3a465728c42bf8b6124f9b6958e1bde84229d6b662bf82&ipo=images)"></button>
+                </td>
+                <td>
+                    <button class="tbicon" style="background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcorellia.fi%2Fwp-content%2Fuploads%2Felementor%2Fthumbs%2Fadobe-acrobat-icon-qjgmymymoxb6wcprz31rsa1d5c50oo0ct0vs16rx00.png&f=1&nofb=1&ipt=290b22bece58b3d00a5125ed9d505fdc7ad93d895746ebdb97911c52ed4f7148&ipo=images)"></button>
+                </td>
+                <td>
+                    <button class="tbicon" style="background-image: url(https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_Notes_icon.svg/960px-Apple_Notes_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail)"></button>
+                </td>
+                 <td>
+                    <button class="tbicon" style="background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fuxwing.com%2Fwp-content%2Fthemes%2Fuxwing%2Fdownload%2Fbrands-and-social-media%2Ffirefox-browser-icon.png&f=1&nofb=1&ipt=b9cb4c2fe7e1e0258eb63229bef7f6ef76a8d27940fd4256be211ab9364b5b00&ipo=images)"></button>
+                </td>
+                <td>
+                    <button class="tbicon" style="background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pinclipart.com%2Fpicdir%2Fbig%2F348-3483904_microsoft-word-icon-microsoft-office-new-icon-clipart.png&f=1&nofb=1&ipt=db49eabebae6e7825499521db3546d6246a25c1cfc97215015fae2ab764b4c1f&ipo=images)"></button>
+                </td>
+                <td>
+                    <button class="tbicon" style="background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fcc%2FMicrosoft_Outlook_Icon_%25282025%25E2%2580%2593present%2529.svg%2F1280px-Microsoft_Outlook_Icon_%25282025%25E2%2580%2593present%2529.svg.png&f=1&nofb=1&ipt=4c81413faf407e1f55cdd4b3458e2bc4fce2232913ef30c8b396262b7866b39a&ipo=images)"></button>
+                </td>
+            </tr>
+        </table>
+
+
     </body>
 </html>

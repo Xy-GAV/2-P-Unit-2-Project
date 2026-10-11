@@ -22,23 +22,28 @@ body {
   background-image: url(folderpng.png);
   background-size: contain;
   background-repeat: no-repeat;
-  padding: 32px;
+  padding: 30px;
   background-color: transparent;
   border: 0;
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+  font-family: "Hedvig Letters Sans", sans-serif;
 }
 .RightDTRow{
   margin-left: 1820px;
   position:absolute;
 }
-table, th, td {
+.desktop td{
   border-collapse: collapse;
-  padding: 10px;
+  padding: 0px 20px;
   width: 68px;
+  height: 10px;
   table-layout: auto
 }
 table{
   position: absolute;
-  left:1750px
+  left:83%;
+  top:2%
 }
 .icon{
   background-size: contain;
@@ -46,4 +51,26 @@ table{
   padding: 32px;
   background-color: transparent;
   border: 0;
+}
+.tbicon{
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px;
+  background-color: transparent;
+  border: 0;
+}
+.taskbar{
+  position: absolute;
+  left:50%;
+  top:90%;
+  background:rgba(100,100,100,.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-collapse: separate;
+  border-radius: 20px;
+  border-top: 1px solid rgba(250,250,250,.4);
+  border-left: 1px solid rgba(250,250,250,.4);
+}
+.taskbar td{
+  padding:10px;
 }
