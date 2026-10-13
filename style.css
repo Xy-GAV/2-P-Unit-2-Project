@@ -37,7 +37,7 @@ body {
   background-repeat: no-repeat;
   padding: 30px;
   background-color: transparent;
-  border: 1;
+  border: 0;
 }
 .folder{
   text-align: center;
@@ -51,7 +51,7 @@ body {
 }
 .desktop td{
   border-collapse: collapse;
-  padding: 0px 20px;
+  padding: 10px 20px;
   width: 68px;
   height: 10px;
   table-layout: auto
@@ -77,7 +77,7 @@ table{
 }
 .taskbar{
   position: absolute;
-  left:50%;
+  left:30%;
   top:90%;
   background:rgba(100,100,100,.5);
   backdrop-filter: blur(10px);
@@ -89,4 +89,32 @@ table{
 }
 .taskbar td{
   padding:10px;
+}
+
+
+/*-------------------------FIREFOX------------------------------------------*/
+#FireFoxTitle{
+  position: absolute;
+  top: 30%;
+  left:50%;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(1, 33, 61);
+  font-size:350%;
+}
+#tabbar{
+  table-layout: auto;
+  left:10%;
+  border: 20;
+  border-color: black;
+  padding: 10px;
+  padding-left: 20px;
+}
+#tabbar td tr{
+  position: auto;
+}
+.tab{
+  width: 130%;
+  padding: 30px;
 }
