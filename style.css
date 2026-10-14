@@ -114,7 +114,19 @@ table{
 #tabbar td tr{
   position: auto;
 }
+#firefox{
+  padding: 20px;
+}
 .tab{
-  width: 130%;
-  padding: 30px;
+  width: 250px;
+  height: 80px;
+  padding: 10px;
+}
+
+#firefoxlogo{
+  position: absolute;
+  top: 32%;
+  left: 38%;
+  width: 90px;
+  height: auto;
 }
