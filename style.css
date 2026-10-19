@@ -1,9 +1,13 @@
 
+
+
 [draggable=true] {
   cursor: move;
 }
 
 .resizable {
+  color: white;
+  font-family:'Courier New', Courier, monospace;
   overflow: scroll;
   resize: both;
   max-width: 800px;
@@ -11,8 +15,11 @@
   border: 1px solid black;
   min-width: 50px;
   min-height: 50px;
-  background-color: skyblue;
+  background-color: rgba(20, 32, 36,0.9);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
+/*-----------------Resizable Window----------------*/
 body {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXGWcUAAohJPMo6a-Nay2mKu1b_0Tnb9KldP972OJGXAOQjMwjbP9XicM&s=10);
   background-repeat: no-repeat;
